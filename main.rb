@@ -16,6 +16,6 @@ class Button
   end
 
   def shade(foreground_color, background_color)
-    paint(label_text, x, y, foreground_color, background_color)
+    change_color_and_position(label_text, x, y, foreground_color, background_color)
   end
 end
